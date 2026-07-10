@@ -1,0 +1,35 @@
+# --- Secrets ---
+.streamlit/secrets.toml
+*.env
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Generated pipeline artifacts (regenerate on demand) ---
+paper_cleaned.txt
+paper_sentences.txt
+
+# --- Internal dev notes, not part of the public project ---
+project_state.md
